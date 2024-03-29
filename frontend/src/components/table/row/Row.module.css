@@ -1,0 +1,17 @@
+.row_data{
+    display: flex;
+    flex-direction: row;
+    /*border-width: 2px;
+    border-style: dotted;
+    border-color:red;  */
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    /*border-bottom: 1px solid #eee;
+    box-shadow: 3px 3px #eee;*/
+    padding: 4px;
+    position: static;
+  }
+
+.row_data:hover{
+  box-shadow: 4px 4px #eee;
+  }  

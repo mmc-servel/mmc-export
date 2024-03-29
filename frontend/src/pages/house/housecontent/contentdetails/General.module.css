@@ -1,0 +1,27 @@
+
+.menu_content_div{
+  /* margin:5px;*/
+  padding: 10px;
+  border-top: 0px solid var(--oc-colors-main-tabBorder, #aeaeae); 
+  border-left: 1px solid var(--oc-colors-main-tabBorder, #aeaeae);
+  border-right: 1px solid var(--oc-colors-main-tabBorder, #aeaeae);
+  border-bottom: 1px solid var(--oc-colors-main-tabBorder, #aeaeae);
+  background-color: var(--oc-colors-main-panelBg, #fcfcfc);
+  display:flex;
+}
+
+.left_div {
+  width:50%;  
+  height: 100%;
+  text-align: right;
+}
+
+.right_div {
+  width:50%;  
+  height: 100%;
+  text-align: left;
+}
+
+p {
+  height:1em;;
+}

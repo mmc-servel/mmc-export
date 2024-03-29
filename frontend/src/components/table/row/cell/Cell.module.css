@@ -1,0 +1,78 @@
+.data_cell {
+  /* display: flex;
+  flex-direction: row;
+   border-width: 2px;
+  border-style:double;
+  border-color:red; */
+  white-space: nowrap; /*not go to next line*/
+  overflow: hidden; /*don't show after the element border*/
+  text-overflow: ellipsis; /* put dots at the end of the text if it overflows */
+
+  color: #696969;
+  font-family: Arial, sans-serif;
+  /*font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;*/
+}
+/*
+.data_cell::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  content: "";
+  background: -moz-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0%, rgba(255, 255, 255, 0)),
+    color-stop(100%, rgba(255, 255, 255, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 );
+} */
+
+.id_menu_items {
+  display: none;
+  background-color: white;
+  width: 50px;
+  height: 40px;
+
+}
+
+.data_cell:hover .id_menu_items {
+  display: flex;
+  flex-direction: column;
+  position: absolute; /* The parent of this element should have position:statis (default) otherwise it doesn't work, alhough doc says vice-versa */
+  /*box-shadow: 4px 4px #eee;*/
+
+
+  box-shadow: 0px 0px 6px 6px rgba(0,0,0,0.15);
+ 
+  box-shadow: 0px 1px 16px 0 rgb(0, 0, 0,0.36);
+
+}

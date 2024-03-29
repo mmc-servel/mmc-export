@@ -1,0 +1,37 @@
+.top_bar{
+   padding: 1em;
+    background-color: #3a3632;   
+    display: flex;
+    align-items: baseline; /* to align items on base-line*/
+    
+}
+ .div1{
+    color:#dddcdc; 
+    font-size: 1.5em;  
+    width: 25%;
+    text-align: center;
+ } 
+ .div2{
+   color:#dddcdc; 
+   font-size: 1.5em;  
+   width: 50%;
+   display: flex;
+   justify-content: space-evenly;
+} 
+.div3{
+   color:#dddcdc; 
+   font-size: 1.5em;  
+   width: 25%;
+}  
+
+@media screen and (max-width: 600px) {
+   .div1{
+      display: none;
+   }
+   .div2{
+      flex-flow: column;
+   }
+   .top_bar{
+      flex-flow: column;
+   }   
+}

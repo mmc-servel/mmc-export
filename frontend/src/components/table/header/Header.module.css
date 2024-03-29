@@ -1,0 +1,8 @@
+.table_header{
+    display: flex;
+    flex-direction: row;
+    /*border-width: 2px;
+    border-style:double;
+    border-color:red;  */
+    padding: 4px;
+  }

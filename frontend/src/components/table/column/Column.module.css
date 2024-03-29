@@ -1,0 +1,7 @@
+.table_column{
+    display: flex;
+    flex-direction: row;
+    height: 1.5rem;
+    border: 2px solid gray;
+    width: 50%;
+  }

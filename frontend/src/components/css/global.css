@@ -1,0 +1,10 @@
+.div_block_area{
+    background-color: #ffff;
+    /* width:25%; */
+    /*height: calc(100vh - 4em); */
+    max-height: calc(100vh - 4em);
+    box-shadow: 0px 1px 16px 0 rgb(0, 0, 0,0.36);
+    /*box-shadow: 0px 0px 6px 6px rgba(0,0,0,0.15);*/
+    margin:20px;
+    border-radius: 4px;
+ } 

@@ -1,0 +1,5 @@
+Install Node.js from internet (nodejs.org)
+
+
+npx create-react-app my-app
+npm run build  #to build the app for production.

@@ -1,0 +1,11 @@
+{
+	"rdbms":"postgres",
+	"skip_migration":"true",
+	"port":"8000",
+	"https":"false",
+	"postgres":{
+		"conn_str":"jdbc:oracle:thin:@localhost:1521/pdb01.endava.net",
+		"user":"user01",
+		"pass":"user01"
+	}	
+}

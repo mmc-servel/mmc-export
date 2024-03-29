@@ -1,0 +1,15 @@
+.prod_tablerow_control{
+    display: flex;
+    flex-direction: row-reverse;
+    width: calc(100% - 450px)
+  }
+
+.container1 {
+    transform: rotateY(0deg) ; /* needs Y at 0 deg to behave properly*/
+    transition: transform 2s;
+}
+
+
+.container1:hover {
+    transform:  rotateY(180deg) ; /* notice the order */
+}
